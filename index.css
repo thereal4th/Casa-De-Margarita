@@ -1,11 +1,18 @@
 p{
   margin: 0;
+  font-family: Inter, sans-serif;
 }
+
+h1{
+  margin: 0;
+}
+
+
 
 .nav-bar-container{
     display: flex;
     flex-direction: row;
-    background-color: #21222A;
+    background-color: #034488;
     height: 90px;
     padding: 30px 25px;
     color: white;
@@ -43,8 +50,8 @@ body {
     margin: 0;
     font-family: Inter, sans-serif;
     height: 100vh;
-    /* opacity: 0; might have to use this to achieve the alternate opacity effect */
-    background-image: url("images/image10.jpg");
+    background-image: url("images/backgroundimage6.jpg");
+    background-size: cover;
     
 }
 
@@ -55,29 +62,60 @@ body {
     align-items: center;
     margin: 0;
     padding: 20px;
-    background-color: rgb(152, 152, 154);
+    /* background-color: #edece8; */
     transition: opacity 0.5s;
-}
-
-.pricing-section{
-    height:300px;
-    background-color:white;
 }
 
 .responsive-container-block.bg{
     transition: opacity 0.5s;  
-    border-style: solid;
-    border-color: white;
-    border-radius: 10px;
+    border-style: none;
+    border-color: #034488;
+    /* border-radius: 10px; */
+    background-color: #edece8;
 }
 
-.responsive-container-block.bg:hover{
+.about-section{
+  height:50%;
+  background-color:#e8eaed;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-section-header{
+  font-size: 40px;
+  color: #178fd6;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.about-section-paragraph-container{
+  font-size: 20px;
+  max-width: 50%;
+  max-height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: auto;
+}
+
+.about-section-paragraph{
+  color: #034488;
+  text-align: justify;
+}
+
+.about-section-paragraph-bold{
+  font-weight: 700;
+}
+
+/* .responsive-container-block.bg:hover{
     opacity: 0;
 }
 
 .responsive-container-block.bg:active{
     opacity: 0;
-}
+} */
 
 .album{
     margin-top: 120px;

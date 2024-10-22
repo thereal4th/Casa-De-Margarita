@@ -5,8 +5,9 @@
         <title>Casa De Margarita</title>
         <link rel="stylesheet" href="index.css">
 
+        <!-- for AOS -->
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,17 +15,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
         
 
+
         <!-- for favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
         <link rel="manifest" href="favicon_io/site.webmanifest">
 
+        <script src = "index.js"></script>
     </head>
     <body>
         
 
-        <div class = "nav-bar-container" data-aos = "fade-right">
+        <div class = "nav-bar-container" data-aos = "fade-down">
             <img class = "nav-bar-icon" src="images/icon.png">
             <p class = "nav-bar-title">Casa De Margarita</p>
             <p class = "nav-bar-title-description">- Pool and Events place</p>
@@ -36,17 +39,17 @@
         <div class = "main-section">
             <div class="album" >
                 <div class="responsive-container-block bg">
-                    <div class="responsive-container-block img-cont" data-aos = "fade-up" >
+                    <div class="responsive-container-block img-cont" data-aos = "fade-up" data-aos-anchor-placement="top-bottom">
                         <img class="img" src="images/image1.jpg" style = "border-top-left-radius: 20px;">
                         <img class="img" src="images/image4.jpg">
                         <img class="img img-last" src="images/image5.jpg" style = "border-bottom-left-radius: 20px;">
                     </div>
-                    <div class="responsive-container-block img-cont" data-aos = "fade-down">
+                    <div class="responsive-container-block img-cont" data-aos = "fade-down"data-aos-anchor-placement="top-bottom">
                         <img class="img img-big" src="images/image9.jpg">
                         <img class="img" src="images/image3.jpg">
                         <img class="img img-last" src="images/image6.jpg" style = "max-height:378px;">
                     </div>
-                    <div class="responsive-container-block img-cont" data-aos = "fade-up">
+                    <div class="responsive-container-block img-cont" data-aos = "fade-up"data-aos-anchor-placement="top-bottom">
                         <img class="img" src="images/image2.jpg" style = "border-top-right-radius: 20px;max-height: 375px;">
                         <img class="img" src="images/image7.jpg">
                         <img class="img" src="images/backgroundimage4.png" style = "border-bottom-right-radius: 20px;">
@@ -55,10 +58,21 @@
             </div>
         </div>
 
-        <div class = "pricing-section">
-
+        <div class = "about-section" >
+            <h1 class = "about-section-header" data-aos = "fade-up">ABOUT US</h1>
+            <div class = "about-section-paragraph-container">
+                <p class = "about-section-paragraph" data-aos = "fade-up">
+                    We are 
+                    <span class = "about-section-paragraph-bold">Casa De Margarita</span>, 
+                    a relaxing haven for swimming and unforgettable events, 
+                    located in Santa Lucia Pasig City. 
+                    We offer a spacious pool and beautifully designed venues perfect for celebrations, parties, and gatherings. 
+                    Whether you’re here to unwind or celebrate, we provide the perfect setting for fun, relaxation, and lasting memories. 
+                </p>
+            </div>
         </div>
 
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
         <script>
             AOS.init();
           </script>
