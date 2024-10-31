@@ -75,7 +75,7 @@ body {
 }
 
 .about-section{
-  height:50%;
+  height:auto;
   background-color:#e8eaed;
   margin-top: 2%;
   display: flex;
@@ -97,7 +97,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
-  margin-bottom: auto;
+  margin-bottom: 5%;
 }
 
 .about-section-paragraph{
