@@ -1,3 +1,10 @@
+html{  
+  scroll-behavior: smooth;  
+}
+a{
+  text-decoration-line: none;
+  color: white;
+}
 p{
   margin: 0;
   font-family: Inter, sans-serif;
@@ -6,8 +13,6 @@ p{
 h1{
   margin: 0;
 }
-
-
 
 .nav-bar-container{
     display: flex;
@@ -68,10 +73,10 @@ body {
 
 .responsive-container-block.bg{
     transition: opacity 0.5s;  
-    border-style: none;
-    border-color: #034488;
-    /* border-radius: 10px; */
-    background-color: #edece8;
+    /* border-style: solid; */
+    border-color: white;
+    border-radius: 30px;
+    /* background-color: #edece8; */
 }
 
 .about-section{
@@ -109,6 +114,28 @@ body {
   font-weight: 700;
 }
 
+.pricing-section{
+  height:auto;
+  background-color:#e8eaed;
+  display: flex;
+  flex-direction: column;
+}
+
+#img-pricing{
+  margin-right: auto;
+  margin-left: auto;
+  max-height: 30%;
+  max-width: 30%;
+}
+
+.pricing-section-header{
+  font-size: 40px;
+  color: #178fd6;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+}
+
 /* .responsive-container-block.bg:hover{
     opacity: 0;
 }
@@ -142,12 +169,15 @@ body {
     max-width: 1220px;
     margin: 0 0 0 0;
     justify-content: space-between;
+    background-image: url("images/bluestripes.jpg");
+    background-size:cover;
   }
   
   .album .img {
     margin: 0 0 20px 0;
     width: 300px; /* Set a fixed width for the images */
     object-fit: cover; /* Maintain aspect ratio */
+    /* box-shadow: 5px 7px white, 10px 14px blue; */
   }
   
   .album #i9rb {
