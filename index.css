@@ -75,7 +75,7 @@ body {
     transition: opacity 0.5s;  
     /* border-style: solid; */
     border-color: white;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     /* background-color: #edece8; */
 }
 
@@ -116,7 +116,7 @@ body {
 
 .pricing-section{
   height:auto;
-  background-color:#e8eaed;
+  background-color:#122747;
   display: flex;
   flex-direction: column;
 }
@@ -124,16 +124,17 @@ body {
 #img-pricing{
   margin-right: auto;
   margin-left: auto;
-  max-height: 30%;
-  max-width: 30%;
+  max-height: 50%;
+  max-width: 50%;
 }
 
 .pricing-section-header{
   font-size: 40px;
-  color: #178fd6;
+  color: #CDB879;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3%;
+  margin-top: 3%;
 }
 
 /* .responsive-container-block.bg:hover{
@@ -153,9 +154,9 @@ body {
     height: fit-content;
     width: 100%;
     padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding-right: 7px;
+    padding-bottom: 0px;
+    padding-left: 7px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 0px;
@@ -169,15 +170,20 @@ body {
     max-width: 1220px;
     margin: 0 0 0 0;
     justify-content: space-between;
-    background-image: url("images/bluestripes.jpg");
-    background-size:cover;
+    /* background-image: url("images/bluestripes.jpg");
+    background-size:cover; */
+    background-color: white;
+
   }
   
   .album .img {
     margin: 0 0 20px 0;
     width: 300px; /* Set a fixed width for the images */
     object-fit: cover; /* Maintain aspect ratio */
-    /* box-shadow: 5px 7px white, 10px 14px blue; */
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255); */
+    box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.6);
   }
   
   .album #i9rb {
