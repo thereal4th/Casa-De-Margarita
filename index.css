@@ -1,10 +1,19 @@
 html{  
   scroll-behavior: smooth;  
 }
-a{
-  text-decoration-line: none;
+.nav-bar-anchor{
+  text-decoration: none;
+  text-underline-offset: 0.1em;
   color: white;
+  transition: text-decoration 300ms, text-underline-offset 300ms, color 300ms;
 }
+
+.nav-bar-anchor:hover{
+  color: #CDB879;
+  text-decoration: underline;
+  text-underline-offset: 0.5em;
+}
+
 p{
   margin: 0;
   font-family: Inter, sans-serif;
@@ -92,7 +101,7 @@ body {
   color: #178fd6;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .about-section-paragraph-container{
@@ -102,7 +111,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 
 .about-section-paragraph{
@@ -126,6 +135,7 @@ body {
   margin-left: auto;
   max-height: 50%;
   max-width: 50%;
+  margin-bottom: 3%;
 }
 
 .pricing-section-header{
@@ -137,6 +147,48 @@ body {
   margin-top: 3%;
 }
 
+.contact-section{
+  height:auto;
+  background-color:#e8eaed;
+  display: flex;
+  flex-direction: column;
+}
+.contact-section-header{
+  font-size: 40px;
+  color: #178fd6;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.contacts-flex{
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align:middle;
+  margin-bottom: 4%;
+}
+
+.contacts-icon{
+  max-height: 2%;
+  max-width: 2%;
+  margin-left: 35%;
+  margin-right: 1%;
+}
+
+.contacts-flex-row{
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+}
+
+.contacts-text{
+  color: #034488;
+  font-size: 22px;
+  display: inline;
+  margin-right: auto;
+}
 /* .responsive-container-block.bg:hover{
     opacity: 0;
 }
