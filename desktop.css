@@ -282,7 +282,7 @@ body {
     margin: 0 0 16px 0;
   }
   
-  @media (max-width: 1024px) {
+  /* @media (max-width: 1024px) {
     .album .img {
       margin: 0 0 18px 0;
     }
@@ -330,7 +330,7 @@ body {
     .album .img.img-last {
       margin: 0 0 5px 0;
     }
-  }
+  } */
 
   @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
 
@@ -394,7 +394,13 @@ body {
   width: 100%;
 }
 
-@media (max-width: 1024px) {
+.album .responsive-container-block {
+  display: flex; /* Ensure this is set for the container */
+  flex-wrap: wrap; /* Allow images to wrap if they exceed the container width */
+  justify-content: center; /* Center the images horizontally */
+}
+
+/* @media (max-width: 1024px) {
   .wk-ipadp-1 {
     width: 8.333333%;
   }
@@ -542,10 +548,6 @@ body {
   .wk-mobile-12 {
     width: 100%;
   }
-}
+} */
 
-.album .responsive-container-block {
-    display: flex; /* Ensure this is set for the container */
-    flex-wrap: wrap; /* Allow images to wrap if they exceed the container width */
-    justify-content: center; /* Center the images horizontally */
-}
+
